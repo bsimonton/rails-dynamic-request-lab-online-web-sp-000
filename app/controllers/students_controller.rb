@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   
   
   def show 
-    @students = 
+    @student = Student.find
   end 
     
 end
